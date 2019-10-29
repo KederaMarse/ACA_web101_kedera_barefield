@@ -1,14 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: blue;
+  background-image: url(https://www.chromethemer.com/download/hd-wallpapers/sea-blue-1920x1080.jpg);
   background-repeat: no-repeat;
-  background-size: 192px 100px;
+  background-size: 1600px 1000px;
   width: 100vw;
   height: 100vh;
 }
-
 .logo {
-  width: px;
+  width: 150px;
   height: 100px;
   margin: 3% 10%;
 }

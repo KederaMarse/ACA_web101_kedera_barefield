@@ -1,0 +1,93 @@
+/* Background image */
+body {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+}
+
+button:focus {
+  outline: 0;
+}
+
+.calulator,
+.display,
+.button {
+  cursor: pointer;
+}
+
+.display,
+.button {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 100;
+  border: 0;
+}
+
+.calculator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 316px;
+  width: 228px;
+  background: #000000;
+}
+
+.display {
+  box-sizing: border-box;
+  display: block;
+  width: inherit;
+  margin-top: 28px;
+  padding: 0 10px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 45px;
+  text-align: right;
+}
+
+.button {
+  height: 47px;
+  width: 57px;
+  float: left;
+  padding: 2px 0 3px 0;
+  background: #e0e0e0;
+  font-size: 22px;
+}
+
+.button:active {
+  background: #bababa;
+}
+
+.top {
+  background: #d6d6d6;
+}
+
+.top:active {
+  background: #b0b0b0;
+}
+
+.operator {
+  background: #ff8c00;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.operator:active {
+  background: #b36200;
+}
+
+.decimal {
+  font-weight: 400;
+}
+
+.calculator {
+  border-radius: 6px;
+}
+
+.equal {
+  border-bottom-right-radius: 6px;
+}
+
+.double {
+  width: 114px;
+  border-bottom-left-radius: 6px;
+}
