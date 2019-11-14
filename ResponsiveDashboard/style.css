@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: "main aside";
+}
+ul{
+    list-style-type: none;
+}
+.aside{
+    grid-area: aside;
+    margin: 15px;
+}
+.img{
+    width:100%;
+}
+.container{
+    justify-content: space-around;
+    background-color: blueviolet;
+    color: white;
+    display: none;
+}
+.list>li{
+    padding: 15px;
+}
+@media (max-width:900px  ){
+    aside{
+        display: none;
+    }
+    body{
+        grid-template-columns: 100%;
+        grid-template-areas:"main";
+    }
+     }
+     @media (max-width:600px){
+         .container{
+             display: flex;
+         }
+     }
+    
